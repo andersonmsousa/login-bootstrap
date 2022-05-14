@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Pipoco do Trovão - Login</title>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="vh-100 d-flex justify-content-center align-items-center">
+            <div class="text-bg-light shadow-sm border rounded p-5 xl-w-100">
+                <h1 class="py-3">Efetue seu login</h1>
+                <form>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">E-mail</label>
+                      <input type="email" placeholder="Digite seu e-mail" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Password</label>
+                      <input type="password" placeholder="Digite sua senha" class="form-control mb-5" id="exampleInputPassword1">
+                    </div>
+                    <button type="button" class="btn btn-primary w-100 my-1" id="liveAlertBtn">Entrar</button>
+                    <button type="reset" class="btn btn-danger w-100 my-1" id="reset">Resetar</button>
+                    <div class="mt-2" id="liveAlertPlaceholder"></div>
+                  </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<script src="index.js"></script>
+</html>
